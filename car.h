@@ -9,6 +9,8 @@ using namespace std;
 
 class Car: public Vehicle{
 private:
+	string carManu;
+	int carYearBuilt;
 	int doors;
 public: 
 	Car(string man, int yearBuilt, int doors);
