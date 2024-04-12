@@ -18,7 +18,6 @@ public:
 	int getYearBuilt ();
 	void setYearBuilt(int yearBuilt);
 	void displayInfo();
-
 };
 
 

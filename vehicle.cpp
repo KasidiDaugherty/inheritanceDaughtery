@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 Vehicle::Vehicle(string manu, int yearBuilt) : manu(manu), yearBuilt(yearBuilt) {}		//constructor definition for the Vehicle class
 
 string Vehicle::getManu()
