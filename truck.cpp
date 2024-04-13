@@ -19,8 +19,7 @@ string Truck::getTruckManu()
 
 void Truck::setTruckManu(string truckManu)
 {
-	this->truckManu = truckManu;																						//Using the pointer this to assign the value of towingCapacity of the current object
-
+	this->truckManu = truckManu;																						//Using the pointer this to assign the value of truck manufactor of the current object
 }
 
 int Truck::getTruckYearBuilt()
@@ -30,7 +29,7 @@ int Truck::getTruckYearBuilt()
 
 void Truck::seTruckYearBuilt(int truckYearBuilt)
 {
-	this->truckYearBuilt = truckYearBuilt;																						//Using the pointer this to assign the value of towingCapacity of the current object
+	this->truckYearBuilt = truckYearBuilt;																						//Using the pointer this to assign the value of the year the truck was built of the current object
 
 }
 

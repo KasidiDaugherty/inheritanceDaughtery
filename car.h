@@ -12,10 +12,16 @@ private:
 	string carManu;
 	int carYearBuilt;
 	int doors;
+
 public: 
 	Car(string man, int yearBuilt, int doors);
 	int getDoors();
 	void setDoors(int doors);
+	void displayInfo();
+	string getCarManu();
+	void setCarManu(string carManu);
+	int getCarYearBuilt();
+	void setCarYearBuilt(int carYearBuilt);
 	void displayInfo();
 };
 	
