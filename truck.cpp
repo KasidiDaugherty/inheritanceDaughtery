@@ -1,6 +1,6 @@
 #include "truck.h"
 
-Truck::Truck(string manu, int yearBuilt, int towingCapacity) : Vehicle(manu, yearBuilt), towingCapacity(towingCapacity) {}			//constructor definition for the Truck class
+Truck::Truck(string truckManu, int truckYearBuilt, int towingCapacity) : Vehicle(truckManu, truckYearBuilt), towingCapacity(towingCapacity) {}			//constructor definition for the Truck class
 
 int Truck::getTowingCapacity()
 {

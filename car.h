@@ -22,7 +22,6 @@ public:
 	void setCarManu(string carManu);
 	int getCarYearBuilt();
 	void setCarYearBuilt(int carYearBuilt);
-	void displayInfo();
 };
 	
 
