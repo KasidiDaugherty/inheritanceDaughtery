@@ -26,7 +26,7 @@ void Vehicle::setYearBuilt(int yearBuilt)
 	this->yearBuilt = yearBuilt;														//Using the pointer this to assign the value of yearBuilt of the current object
 }
 
-void Vehicle::displayInfo() {
+void Vehicle::displayInfo() const {
 	cout << "Manufacturer: " << manu << endl;
 	cout << "Year Built: " << yearBuilt << endl;
 }

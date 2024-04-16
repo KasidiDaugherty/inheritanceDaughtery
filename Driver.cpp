@@ -15,42 +15,38 @@ int main() {
     cout << "Enter year built of the vehicle: ";
     cin >> yearBuilt;
     cout << endl;
-    cin.ignore(); // Consume the newline character
+    cin.ignore(); 
     Vehicle vehicle(manu, yearBuilt);
     cout << "Vehicle Information: " << endl;
     vehicle.displayInfo();
 
     int doors;
-    string carManu;
-    int carYearBuilt;
     cout << "\nEnter manufacturer of the car: ";
-    getline(cin, carManu);
+    getline(cin, manu);
     cout << "Enter year built of the car: ";
-    cin >> carYearBuilt;
+    cin >> yearBuilt;
     cout << endl;
-    cin.ignore(); // Consume the newline character
+    cin.ignore(); 
     cout << "Enter the number of doors for the car: ";
     cin >> doors;
     cout << endl;
-    cin.ignore(); // Consume the newline character
-    Car car(carManu, carYearBuilt, doors);
+    cin.ignore();
+    Car car(manu, yearBuilt, doors);
     cout << "Car information: " << endl;
     car.displayInfo();
 
     int towingCapacity;
-    string truckManu;
-    int truckYearBuilt;
     cout << "\nEnter manufacturer of the truck: ";
-    getline(cin, truckManu);
+    getline(cin, manu);
     cout << "Enter year built of the truck: ";
-    cin >> truckYearBuilt;
+    cin >> yearBuilt;
     cout << endl;
-    cin.ignore(); // Consume the newline character
+    cin.ignore(); 
     cout << "Enter towing capacity for the truck: ";
     cin >> towingCapacity;
     cout << endl;
-    cin.ignore(); // Consume the newline character
-    Truck truck(truckManu, truckYearBuilt, towingCapacity);
+    cin.ignore();
+    Truck truck(manu, yearBuilt, towingCapacity);
     cout << "Truck Information: " << endl;
     truck.displayInfo();
 
