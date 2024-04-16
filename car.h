@@ -17,7 +17,7 @@ public:
 	Car(string man, int yearBuilt, int doors);
 	int getDoors();
 	void setDoors(int doors);
-	void displayInfo() const override;
+	void displayInfo();
 };
 	
 

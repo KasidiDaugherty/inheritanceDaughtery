@@ -15,7 +15,7 @@ public:
 	Truck(string manu, int yearBuilt, int towingCapacity);
 	int getTowingCapacity();
 	void setTowingCapacity(int towingCapacity);
-	void displayInfo() const override;
+	void displayInfo();
 };
 
 

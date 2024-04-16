@@ -17,7 +17,7 @@ public:
 	void setManu(string manu);
 	int getYearBuilt ();
 	void setYearBuilt(int yearBuilt);
-	void displayInfo() const;
+	void displayInfo();
 };
 
 
