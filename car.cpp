@@ -18,6 +18,6 @@ void Car::setDoors(int doors)
 
 void Car::displayInfo() const
 {
-	Vehicle::displayInfo();																	// using the displayInfo function from the vehicle class
+	Vehicle::displayInfo();																	// Calling the function from the vehicle.cpp and using it to display the manu and yearBuilt variable and display them
 	cout << "Number of Doors: " << doors << endl;
 }
